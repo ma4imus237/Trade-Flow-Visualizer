@@ -1,5 +1,5 @@
 import { getCommodityColor, COMMODITY_LIST } from "../../utils/commodities";
-import { formatUSD } from "../../utils/format";
+import { formatUSD } from "../../utils/formatters";
 
 /**
  * Map legend showing commodity color and width scale.

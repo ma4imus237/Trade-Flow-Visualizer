@@ -6,7 +6,7 @@ Loads country data from a bundled JSON file at module level for fast lookups.
 import json
 from pathlib import Path
 
-_DATA_PATH = Path(__file__).resolve().parent.parent.parent / "data" / "countries.json"
+_DATA_PATH = Path(__file__).resolve().parent.parent.parent.parent / "data" / "static" / "countries.json"
 
 _countries: dict[str, dict] = {}
 

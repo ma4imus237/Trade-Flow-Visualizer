@@ -1,6 +1,7 @@
 import Header from "../components/layout/Header";
 import ControlPanel from "../components/layout/ControlPanel";
 import FlowMap from "../components/map/FlowMap";
+import ExplorerSidebar from "../components/panels/ExplorerSidebar";
 import { useFlows } from "../hooks/useFlows";
 
 /**
@@ -58,11 +59,9 @@ export default function Explorer() {
           <FlowMap flows={flows} />
         </main>
 
-        {/* Right sidebar placeholder for future panels */}
-        <div className="hidden w-72 shrink-0 border-l border-white/10 bg-gray-950 lg:block">
-          <div className="flex h-full items-center justify-center text-xs text-gray-600">
-            Detail panel
-          </div>
+        {/* Right sidebar — Sankey, Table, Shifts panels */}
+        <div className="hidden w-96 shrink-0 border-l border-white/10 bg-gray-950 lg:block">
+          <ExplorerSidebar />
         </div>
       </div>
 

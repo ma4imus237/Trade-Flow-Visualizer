@@ -1,5 +1,5 @@
 import { ArcLayer } from "@deck.gl/layers";
-import { hexToRgba } from "../utils/format";
+import { hexToRgba } from "../utils/formatters";
 
 /**
  * Creates a deck.gl ArcLayer for trade flow arcs.

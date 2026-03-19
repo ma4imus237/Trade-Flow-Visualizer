@@ -1,4 +1,4 @@
-import { formatUSD, formatWeight } from "../../utils/format";
+import { formatUSD, formatWeight } from "../../utils/formatters";
 
 /**
  * Floating tooltip that renders on arc or country hover.

@@ -1,5 +1,5 @@
 import { useExplorer, useExplorerDispatch } from "../../context/ExplorerContext";
-import { formatUSD } from "../../utils/format";
+import { formatUSD } from "../../utils/formatters";
 
 const MIN = 0;
 const MAX = 1e10; // $10B
