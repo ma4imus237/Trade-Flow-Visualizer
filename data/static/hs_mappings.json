@@ -1,0 +1,72 @@
+[
+  {
+    "code": "lithium",
+    "name": "Lithium",
+    "color": "#06b6d4",
+    "hs_codes": [
+      {"hs6": "283691", "description": "Lithium carbonate"},
+      {"hs6": "282520", "description": "Lithium oxide and hydroxide"},
+      {"hs6": "280519", "description": "Lithium metal"}
+    ]
+  },
+  {
+    "code": "cobalt",
+    "name": "Cobalt",
+    "color": "#8b5cf6",
+    "hs_codes": [
+      {"hs6": "810520", "description": "Cobalt mattes and intermediates"},
+      {"hs6": "282200", "description": "Cobalt oxides and hydroxides"},
+      {"hs6": "810510", "description": "Cobalt ores and concentrates"}
+    ]
+  },
+  {
+    "code": "rare_earths",
+    "name": "Rare Earths",
+    "color": "#f59e0b",
+    "hs_codes": [
+      {"hs6": "280530", "description": "Rare-earth metals"},
+      {"hs6": "284610", "description": "Cerium compounds"},
+      {"hs6": "253010", "description": "Rare earth ores (monazite, bastnaesite)"}
+    ]
+  },
+  {
+    "code": "copper",
+    "name": "Copper",
+    "color": "#ef4444",
+    "hs_codes": [
+      {"hs6": "260300", "description": "Copper ores and concentrates"},
+      {"hs6": "740311", "description": "Refined copper cathodes"},
+      {"hs6": "740400", "description": "Copper waste and scrap"}
+    ]
+  },
+  {
+    "code": "uranium",
+    "name": "Uranium",
+    "color": "#22c55e",
+    "hs_codes": [
+      {"hs6": "261210", "description": "Uranium ores and concentrates"},
+      {"hs6": "284410", "description": "Natural uranium compounds"},
+      {"hs6": "284420", "description": "Enriched uranium"}
+    ]
+  },
+  {
+    "code": "nickel",
+    "name": "Nickel",
+    "color": "#ec4899",
+    "hs_codes": [
+      {"hs6": "260400", "description": "Nickel ores and concentrates"},
+      {"hs6": "750110", "description": "Nickel mattes"},
+      {"hs6": "750210", "description": "Unwrought nickel"}
+    ]
+  },
+  {
+    "code": "graphite",
+    "name": "Graphite",
+    "color": "#6b7280",
+    "hs_codes": [
+      {"hs6": "250410", "description": "Natural graphite powder"},
+      {"hs6": "250490", "description": "Other natural graphite"},
+      {"hs6": "380110", "description": "Artificial graphite"}
+    ]
+  }
+]
